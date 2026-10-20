@@ -1,0 +1,9 @@
+{
+  "encounters": 101766,
+  "unique_patients": 71518,
+  "early_readmissions": 11357,
+  "early_readmit_rate": 0.11159915885462728,
+  "death_hospice_rows": 2423,
+  "eligible_encounters": 99343,
+  "eligible_early_readmit_rate": 0.11388824577474005
+}

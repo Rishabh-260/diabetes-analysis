@@ -1,0 +1,65 @@
+{
+  "quality": {
+    "raw_rows": 101766,
+    "raw_columns": 50,
+    "unique_patients_raw": 71518,
+    "duplicate_rows": 0,
+    "missing_cells": 374017,
+    "invalid_target_rows_removed": 0,
+    "death_hospice_rows_retained": 2423,
+    "clean_rows": 101766,
+    "clean_columns": 57,
+    "unique_patients_clean": 71518,
+    "clean_missing_cells": 374017
+  },
+  "eda": {
+    "encounters": 101766,
+    "unique_patients": 71518,
+    "early_readmissions": 11357,
+    "early_readmit_rate": 0.11159915885462728,
+    "death_hospice_rows": 2423,
+    "eligible_encounters": 99343,
+    "eligible_early_readmit_rate": 0.11388824577474005
+  },
+  "model": {
+    "metrics": [
+      {
+        "model": "Logistic Regression",
+        "ROC-AUC": 0.6353500367824206,
+        "Precision": 0.15530755945263716,
+        "Recall": 0.5434681543468154,
+        "F1-score": 0.24157883860301715,
+        "PR-AUC": 0.18209209374762508,
+        "test_encounters": 20153
+      },
+      {
+        "model": "Random Forest",
+        "ROC-AUC": 0.6596293526144185,
+        "Precision": 0.1902834008097166,
+        "Recall": 0.39330543933054396,
+        "F1-score": 0.25648021828103684,
+        "PR-AUC": 0.1946439666756928,
+        "test_encounters": 20153
+      },
+      {
+        "model": "Prevalence baseline",
+        "ROC-AUC": 0.5,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1-score": 0.0,
+        "PR-AUC": 0.10673348881059892,
+        "test_encounters": 20153
+      }
+    ],
+    "split": {
+      "split": "patient-grouped 80/20 holdout",
+      "random_state": 42,
+      "train_encounters": 81613,
+      "test_encounters": 20153,
+      "train_patients": 57214,
+      "test_patients": 14304,
+      "selected_model": "Random Forest",
+      "test_positive_rate": 0.10673348881059892
+    }
+  }
+}

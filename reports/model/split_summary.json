@@ -1,0 +1,10 @@
+{
+  "split": "patient-grouped 80/20 holdout",
+  "random_state": 42,
+  "train_encounters": 81613,
+  "test_encounters": 20153,
+  "train_patients": 57214,
+  "test_patients": 14304,
+  "selected_model": "Random Forest",
+  "test_positive_rate": 0.10673348881059892
+}

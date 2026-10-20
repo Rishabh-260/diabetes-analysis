@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.sqlite
+*.db
+*.joblib
+*.zip
+.env
+data/processed/cleaned_encounters.csv
+dashboard/powerbi_data/encounters_powerbi.csv

@@ -1,0 +1,31 @@
+feature,importance
+num__number_inpatient,0.061821020413157776
+cat__prior_inpatient_group_0,0.051701393905577465
+num__discharge_disposition_id,0.04642064511481236
+num__num_lab_procedures,0.04345342774660368
+num__num_medications,0.041693318368501736
+cat__prior_inpatient_group_3+,0.038081639614585154
+num__time_in_hospital,0.028626321335488106
+num__number_diagnoses,0.027897513571953178
+num__num_procedures,0.02143387563569562
+num__number_emergency,0.018499983684844627
+num__admission_type_id,0.015944343782574998
+num__admission_source_id,0.014114639062428682
+num__number_outpatient,0.012752936491028346
+cat__prior_inpatient_group_2,0.010882642817008705
+cat__prior_inpatient_group_1,0.009259474206446816
+cat__payer_code_MC,0.008559702336162083
+cat__gender_Female,0.008183834599646816
+cat__medical_specialty_InternalMedicine,0.008176457687586056
+cat__gender_Male,0.008137486811086848
+cat__stay_group_1-2 days,0.00766130717382171
+cat__primary_diagnosis_group_Circulatory,0.007543124779115571
+cat__stay_group_3-5 days,0.007249734556640259
+cat__diag_3_250,0.007216704226566308
+cat__insulin_No,0.006973181698698075
+cat__insulin_Steady,0.0067561372446976265
+cat__race_Caucasian,0.0064737352380496984
+cat__primary_diagnosis_group_Respiratory,0.0060867938039506075
+cat__age_group_[70-80),0.006077560384417735
+cat__diabetesMed_Yes,0.005992461740617674
+cat__age_[70-80),0.005962915338641612
